@@ -27,6 +27,7 @@ header .navbar {
 
 header .navbar a {
     color: #E5E5E5;
+    font-size: 1.2rem;
 }
 
 
@@ -49,10 +50,12 @@ header .navbar a {
 }
 
 .text-container h3 {
-    color: #069EBF;
+    color: #13aabe;
+    font-size: 1.5rem;
 }
 .text-container h1 {
     color: #FFFFFF;
+    font-size: 2rem;
 }
 
 
@@ -83,3 +86,102 @@ header .navbar a {
     color: #FFFFFF;
     font-size: 1.7rem;
 }
+
+.sobre h2 {
+    background-color: #404040;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* estilizando portfolio */
+
+
+
+
+
+.habilidades {
+    display: grid;
+    background-color: #1a1c1d;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+}
+
+
+.habilidades .container-text {
+    color: #d5d5d5;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+.habilidades .container-text h2 {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+}
+
+.habilidades video {
+    width: 620px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    box-shadow: 0 0 20px rgba(19, 140, 177, 0.5); /* Adiciona um contorno 3D */
+    margin-top: 20px; /* Adiciona margem superior para afastar o vídeo de cima */
+    margin-bottom: 20px; /* Adiciona margem inferior para afastar o vídeo da seção */
+}
+
+.container-text {
+    margin-right: 80px; /* Adicione margem à direita para afastar os botões um pouco para a direita */
+}
+
+.container-text button {
+    border: 2px solid #007ced;
+    padding: 0;
+    margin: 0 8px; /* Adicione margem para criar espaço entre os botões */
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    background: linear-gradient(to bottom right, gray, #333);
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease, border 0.3s ease;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-text button:last-child {
+    margin-right: 0;
+}
+
+.container-text button img {
+    max-width: 100%;
+    height: 42px;
+}
+
+.container-text button:hover {
+    background-position: 100% 100%;
+    border: 2px solid #007ced;
+}
+
+.habilidades .text-habilidades {
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
