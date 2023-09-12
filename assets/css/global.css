@@ -27,8 +27,14 @@ header .navbar {
 
 header .navbar a {
     color: #E5E5E5;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
+
+header .navbar a:hover {
+    color: #ac0017;
+}
+
+
 
 
 /* section main */
@@ -40,6 +46,7 @@ header .navbar a {
     background-attachment: fixed;
     position: relative;
     height: 600px;
+    opacity: 89%;
 }
 
 
@@ -50,12 +57,17 @@ header .navbar a {
 }
 
 .text-container h3 {
-    color: #13aabe;
+    color: wheat;
     font-size: 1.5rem;
+    font-weight: bold;
 }
 .text-container h1 {
     color: #FFFFFF;
-    font-size: 2rem;
+    font-size: 1.6rem;
+}
+
+.text-container span {
+    color: #ac0017;
 }
 
 
@@ -75,16 +87,16 @@ header .navbar a {
 
 
 .sobre-container img {
-    margin-left: 68px; 
+    margin-left: 32px; 
     border-radius: 4%;
     margin-bottom: 20px;
 }
 
 
 .sobre-container p {
-    padding: 150px 0px 0px 20px;
+    padding: 55px 0px 0px 20px;
     color: #FFFFFF;
-    font-size: 1.7rem;
+    font-size: 0.525rem;
 }
 
 .sobre h2 {
@@ -92,7 +104,9 @@ header .navbar a {
     text-align: center;
 }
 
-
+.sobre-container strong {
+    color: rgb(9, 163, 4);
+}
 
 
 
@@ -133,17 +147,17 @@ header .navbar a {
     width: 620px;
     padding-bottom: 20px;
     padding-top: 10px;
-    box-shadow: 0 0 20px rgba(19, 140, 177, 0.5); /* Adiciona um contorno 3D */
+    box-shadow: 0 0 20px rgba(221, 11, 11, 0.5); /* Adiciona um contorno 3D */
     margin-top: 20px; /* Adiciona margem superior para afastar o vídeo de cima */
     margin-bottom: 20px; /* Adiciona margem inferior para afastar o vídeo da seção */
 }
 
 .container-text {
-    margin-right: 80px; /* Adicione margem à direita para afastar os botões um pouco para a direita */
+    margin-right: 0px; /* Adicione margem à direita para afastar os botões um pouco para a direita */
 }
 
 .container-text button {
-    border: 2px solid #007ced;
+    border: 2px solid #dd0d0d;
     padding: 0;
     margin: 0 8px; /* Adicione margem para criar espaço entre os botões */
     width: 50px;
@@ -167,7 +181,7 @@ header .navbar a {
 
 .container-text button:hover {
     background-position: 100% 100%;
-    border: 2px solid #007ced;
+    border: 2px solid #00ed33;
 }
 
 .habilidades .text-habilidades {
@@ -182,6 +196,47 @@ header .navbar a {
 
 
 
+/* RESPONSIVO */
+
+
+
+
+
+
+@media screen and (min-width: 500px) {
+    .sobre-container img{
+        width: 270px;
+    }
+
+    .sobre-container p {
+        padding: 55px 0px 0px 20px;
+        color: #FFFFFF;
+        font-size: 1.5rem;
+    }
+    .video-container {
+        width: 640;
+        height: 500;  
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .video-container video {
+        width: 0;
+    }
+    
+}
+
+
+@media screen and (min-width: 688px) {
+    .video-container video {
+        width: 100px;
+    }
+    
+}
 
 
 

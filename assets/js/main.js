@@ -5,11 +5,11 @@ const image2Link = document.getElementById('image2Link');
 const image3Link = document.getElementById('image3Link');
 const image4Link = document.getElementById('image4Link');
 
-const videos = ['./video/impulso-jett.mp4', './video/dash-jett.mp4', './video/smoke-jett.mp4', './video/ult-jett.mp4'];
+const videos = ['./video/CALCULADORA-VASC.mkv', './video/', './video/', './video/'];
 const texts = [
-    "PLAYSTATION STORE\n",
     "Calculadora\n",
     "Formulario de Contato\n",
+    "PLAYSTATION STORE\n",
     "Spotify\n"
 ];
 

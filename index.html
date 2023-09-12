@@ -5,31 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vascPortfolio</title>
     <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,100;1,800&display=swap" rel="stylesheet">
+   
 </head>
 <body>
 
     <header>
         <nav class="navbar"> 
-            <a href="#Home">Home</a>
+            <a href="#home">Home</a>
             <a href="#sobre">About</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#habilidades">Portfolio</a>
         </nav>
     </header>
 
-    <section class="main">
+    <section class="main" id="home">
        <div class="text-container">
         <h1>ANDERSON <br>
             VASCONCELOS</h1> <br>
-        <h3>   FULL STACK DEVELOPER</h3>
+        <h3>   FULL <span>STACK<br> DEVELOPER</span></h3>
        </div> 
     </section>
 
 
 
-    <section class="sobre">
+    <section class="sobre" id="sobre">
         
         <div class="sobre-container">
-            <img src="./img/perfilll.png" alt="" width="276px">
+            <img src="./img/perfilll.png" alt="" width="150px">
 
             <div>
             <p>Sou um estudante de Ciência da Computação <br>
@@ -39,11 +44,12 @@
                   estou em uma jornada para me tornar um  <br>
                   desenvolvedor Full Stack especializado em <br>
                   JavaScript e C#. Minhas aspirações futuras <br>
-                  incluem dominar C# e Angular.</p>
+                  incluem dominar <strong>C# e Angular</strong>.</p>
             </div>
         </div> 
     </section>
     
+ 
     
 
 
@@ -55,18 +61,18 @@
           
          
                 <button href="#" id="image1Link">
-                    <img src="./img/playstation.png" alt="">      
+                    <img src="./img/cadastre-se.png" alt="Formulário de contato">      
                 </button> 
         
                 <button href="#" id="image2Link">
-                    <img src="./img/calculadora (1).png" alt="">
+                    <img src="./img/calculadora (1).png" alt="Calculadora">
                 </button>
         
                 <button href="#" id="image3Link">
-                    <img src="./img/cadastre-se.png" alt="">
+                    <img src="./img/playstation.png"  alt="Playstation Store">
                 </button>
                 <button href="#" id="image4Link">
-                    <img src="./img/spotify.png" alt="">
+                    <img src="./img/spotify.png" alt="Spotify">
                 </button>
     
            
@@ -74,12 +80,11 @@
                 Calculadora
             </p>
     
-            <!-- Linha de conexão -->
-            <div class="connector-line"></div>
+           
         </div>
         <div class="video-container">
-            <video width="640" height="360" controls id="video">
-                <source src="./video/calculator.mkv" type="video/mp4">
+            <video width="640" height="500" controls id="video">
+                <source src="./video/CALCULADORA-VASC.mkv" type="video/mp4">
             </video>
         </div>
         
@@ -96,6 +101,6 @@
 
 
 
- <script src="main.js"></script>   
+ <script src="./assets/js/main.js"></script>   
 </body>
 </html>
