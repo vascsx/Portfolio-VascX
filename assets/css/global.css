@@ -87,6 +87,7 @@ header .navbar a:hover {
 
 
 .sobre-container img {
+    width: 150px;
     margin-left: 32px; 
     border-radius: 4%;
     margin-bottom: 20px;
@@ -133,7 +134,7 @@ header .navbar a:hover {
 .habilidades .container-text {
     color: #d5d5d5;
     padding-top: 40px;
-    padding-left: 60px;
+    padding-left: 0px;
 }
 
 .habilidades .container-text h2 {
@@ -144,7 +145,8 @@ header .navbar a:hover {
 }
 
 .habilidades video {
-    width: 620px;
+    width: 12.5rem;
+    height: 25rem;
     padding-bottom: 20px;
     padding-top: 10px;
     box-shadow: 0 0 20px rgba(221, 11, 11, 0.5); /* Adiciona um contorno 3D */
@@ -199,44 +201,131 @@ header .navbar a:hover {
 /* RESPONSIVO */
 
 
-
-
-
-
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 360) {
     .sobre-container img{
         width: 270px;
     }
 
     .sobre-container p {
-        padding: 55px 0px 0px 20px;
+        padding: 100px 0px 0px 20px;
         color: #FFFFFF;
-        font-size: 1.5rem;
+        font-size: 0.6rem;
     }
+    
+}
+
+
+
+
+@media screen and (min-width: 506px) {
+    .sobre-container img{
+        width: 270px;
+    }
+
+    .sobre-container p {
+        padding: 100px 0px 0px 20px;
+        color: #FFFFFF;
+        font-size: 1.6rem;
+    }
+  
+}
+
+
+
+@media screen and (max-width: 733px) {
+    .sobre-container img{
+        width: 270px;
+    }
+
+    .sobre-container p {
+        padding: 100px 0px 0px 20px;
+        color: #FFFFFF;
+        font-size: 1.6rem;
+    }
+
     .video-container {
-        width: 640;
-        height: 500;  
+        width: 300px;
     }
+}
+
+@media screen and (min-width: 907px) {
+   
+
+    .container-text {
+        padding: 50px 0px 10px 0px;
+    }
+
+    .video-container video{
+        width: 640px;
+        height: 400px;
+    }
+    header .navbar a {
+        font-size: 1.2rem;
+    }
+
+    .text-container h3 {
+        display: flex;
+        flex-direction: row;
+        color: wheat;
+        font-size: 1.8rem;
+        font-weight: bold;
+        padding: 0px 40px;
+    }
+    .text-container h1 {
+        color: #FFFFFF;
+        font-size: 2rem;
+    }
+    .sobre-container img {
+        margin-left: 89px; 
+        margin-bottom: 40px;
+        border-radius: 4%;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+
+    .sobre-container p{
+        padding: 120px 0;
+        font-size: 1.8rem;
+}
+
+.container-text {
+    font-size: 2rem;
+    margin: 20px 0px 120px 52px;
+}
+
+
+}
+
+/* @media screen and (max-width: 565px) {
+    .sobre-container img{
+        text-align: center;
+    }
+
+    .sobre-container p{
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 1rem;
+        
+    }
+} */
+
+.container-text p {
+    font-size: 2rem;
+    padding: 60px 0px 0px 35px;
+}
+.links-project{
+    padding: 40px;
 }
 
 
 
 
-
-@media screen and (max-width: 600px) {
-    .video-container video {
-        width: 0;
-    }
-    
+.links-project button{
+    width: 70px;
+    height: 38px;
+    border-radius: 7px;
 }
 
-
-@media screen and (min-width: 688px) {
-    .video-container video {
-        width: 100px;
-    }
-    
+.links-project span {
+    font-size: 1.5rem;
 }
-
-
-

@@ -5,11 +5,11 @@ const image2Link = document.getElementById('image2Link');
 const image3Link = document.getElementById('image3Link');
 const image4Link = document.getElementById('image4Link');
 
-const videos = ['./video/CALCULADORA-VASC.mkv', './video/', './video/', './video/'];
+const videos = ['./video/CALCULADORA-VASC.mkv', './video/video-embreve.mp4', './video/video-embreve.mp4', './video/video-embreve.mp4'];
 const texts = [
     "Calculadora\n",
     "Formulario de Contato\n",
-    "PLAYSTATION STORE\n",
+    "Playstation Store\n",
     "Spotify\n"
 ];
 
