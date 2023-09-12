@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+/* Estilizando a navbar */
+
+header {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 40px;
+    padding: 10px;
+    background-color: #404040;
+}
+
+header .navbar {
+    word-spacing: 12px;
+    padding-right: 35px;
+}
+
+header .navbar a {
+    color: #E5E5E5;
+}
+
+
+/* section main */
+
+.main {
+    background-image: url('https://img.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_23-2150010125.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 600px;
+}
+
+
+.text-container img{
+    width: 30px;
+    height: 25px;
+    opacity: 80%;
+}
+
+.text-container h3 {
+    color: #069EBF;
+}
+.text-container h1 {
+    color: #FFFFFF;
+}
+
+
+.text-container {
+    padding: 280px 0px 10px 90px;
+}
+
+
+
+/* sobre-container */
+
+.sobre-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #404040;
+}
+
+
+.sobre-container img {
+    margin-left: 68px; 
+    border-radius: 4%;
+    margin-bottom: 20px;
+}
+
+
+.sobre-container p {
+    padding: 150px 0px 0px 20px;
+    color: #FFFFFF;
+    font-size: 1.7rem;
+}
