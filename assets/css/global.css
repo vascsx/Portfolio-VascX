@@ -194,59 +194,44 @@ header .navbar a:hover {
 
 
 
-
-
-
-
-/* RESPONSIVO */
-
-
-@media screen and (min-width: 360) {
-    .sobre-container img{
-        width: 270px;
-    }
-
-    .sobre-container p {
-        padding: 100px 0px 0px 20px;
-        color: #FFFFFF;
-        font-size: 0.6rem;
-    }
-    
+.container-text p {
+    font-size: 1.6rem;
+    padding: 60px 0px 0px 75px;
+}
+.links-project{
+    padding: 40px;
 }
 
 
 
 
-@media screen and (min-width: 506px) {
-    .sobre-container img{
-        width: 270px;
-    }
+.links-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 300px;
+}
 
-    .sobre-container p {
-        padding: 100px 0px 0px 20px;
-        color: #FFFFFF;
-        font-size: 1.6rem;
-    }
-  
+.links-project button {
+    width: 70px;
+    height: 38px;
+    border-radius: 7px;
+    margin-left: 12px; /* Reduza o valor para mover os botões para a esquerda */
+    gap: 0px;
+}
+
+.links-project span {
+    font-size: 1.6rem;
+    text-align: center;
+    height: auto;
 }
 
 
 
-@media screen and (max-width: 733px) {
-    .sobre-container img{
-        width: 270px;
-    }
 
-    .sobre-container p {
-        padding: 100px 0px 0px 20px;
-        color: #FFFFFF;
-        font-size: 1.6rem;
-    }
 
-    .video-container {
-        width: 300px;
-    }
-}
+
+
 
 @media screen and (min-width: 907px) {
    
@@ -296,36 +281,19 @@ header .navbar a:hover {
 
 }
 
-/* @media screen and (max-width: 565px) {
-    .sobre-container img{
-        text-align: center;
-    }
 
-    .sobre-container p{
+@media screen and (min-width: 360px) {
+   
+    .habilidades{
         display: grid;
         grid-template-columns: 1fr;
-        font-size: 1rem;
-        
     }
-} */
 
-.container-text p {
-    font-size: 2rem;
-    padding: 60px 0px 0px 35px;
-}
-.links-project{
-    padding: 40px;
-}
+    .video-container {
+        padding-left: 45px;
+    }
 
-
-
-
-.links-project button{
-    width: 70px;
-    height: 38px;
-    border-radius: 7px;
-}
-
-.links-project span {
-    font-size: 1.5rem;
+    .links-project button {
+        margin-left: 20px;
+    }
 }
