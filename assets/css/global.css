@@ -346,3 +346,57 @@ header .navbar a:hover {
 
 
 }
+
+
+@media screen and (min-width: 1338px) {
+    .habilidades{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+    }
+ 
+     .container-text {
+         padding: 50px 0px 10px 0px;
+     }
+ 
+     .video-container video{
+         width: 640px;
+         height: 400px;
+     }
+     header .navbar a {
+         font-size: 1.2rem;
+     }
+ 
+     .text-container h3 {
+         display: flex;
+         flex-direction: row;
+         color: wheat;
+         font-size: 1.8rem;
+         font-weight: bold;
+         padding: 0px 40px;
+     }
+     .text-container h1 {
+         color: #FFFFFF;
+         font-size: 2rem;
+     }
+     .sobre-container img {
+         margin-left: 89px; 
+         margin-bottom: 40px;
+         border-radius: 4%;
+         margin-bottom: 20px;
+         width: 300px;
+     }
+ 
+     .sobre-container p{
+         padding: 120px 0;
+         font-size: 1.8rem;
+ }
+ 
+ .container-text {
+     font-size: 2rem;
+     margin: 20px 0px 120px 52px;
+ }
+}
+
+
+
+ 
