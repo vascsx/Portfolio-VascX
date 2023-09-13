@@ -204,7 +204,7 @@ header .navbar a:hover {
 
 
 
-
+/* button project */
 .links-project {
     display: flex;
     justify-content: center;
@@ -233,57 +233,27 @@ header .navbar a:hover {
 
 
 
-@media screen and (min-width: 907px) {
-   
 
-    .container-text {
-        padding: 50px 0px 10px 0px;
-    }
 
-    .video-container video{
-        width: 640px;
-        height: 400px;
-    }
-    header .navbar a {
-        font-size: 1.2rem;
+@media screen and (min-width: 461px) {
+    
+    .habilidades{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
-    .text-container h3 {
-        display: flex;
-        flex-direction: row;
-        color: wheat;
-        font-size: 1.8rem;
-        font-weight: bold;
-        padding: 0px 40px;
+    .video-container {
+        padding-left: 75px;
     }
-    .text-container h1 {
-        color: #FFFFFF;
-        font-size: 2rem;
+    
+    .links-project button {
+        margin-left: 40px;
     }
-    .sobre-container img {
-        margin-left: 89px; 
-        margin-bottom: 40px;
-        border-radius: 4%;
-        margin-bottom: 20px;
-        width: 300px;
-    }
-
-    .sobre-container p{
-        padding: 120px 0;
-        font-size: 1.8rem;
+    
 }
-
-.container-text {
-    font-size: 2rem;
-    margin: 20px 0px 120px 52px;
-}
-
-
-}
-
 
 @media screen and (min-width: 360px) {
-   
+    
     .habilidades{
         display: grid;
         grid-template-columns: 1fr;
@@ -296,4 +266,83 @@ header .navbar a:hover {
     .links-project button {
         margin-left: 20px;
     }
+    .container-text p{
+        padding: 40px 0px 0px 50px;
+    }
+}
+    @media screen and (min-width: 907px) {
+       .habilidades{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       }
+    
+        .container-text {
+            padding: 50px 0px 10px 0px;
+        }
+    
+        .video-container video{
+            width: 640px;
+            height: 400px;
+        }
+        header .navbar a {
+            font-size: 1.2rem;
+        }
+    
+        .text-container h3 {
+            display: flex;
+            flex-direction: row;
+            color: wheat;
+            font-size: 1.8rem;
+            font-weight: bold;
+            padding: 0px 40px;
+        }
+        .text-container h1 {
+            color: #FFFFFF;
+            font-size: 2rem;
+        }
+        .sobre-container img {
+            margin-left: 89px; 
+            margin-bottom: 40px;
+            border-radius: 4%;
+            margin-bottom: 20px;
+            width: 300px;
+        }
+    
+        .sobre-container p{
+            padding: 120px 0;
+            font-size: 1.8rem;
+    }
+    
+    .container-text {
+        font-size: 2rem;
+        margin: 20px 0px 120px 52px;
+    }
+ }
+
+
+
+ @media screen and (min-width: 600px) {
+    
+    .habilidades{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .video-container {
+        padding-left: 45px;
+    }
+
+    .links-project button {
+        margin-left: 20px;
+    }
+    .container-text p{
+        padding: 40px 0px 0px 50px;
+    }
+
+    .video-container video{
+        width: 450px;
+        height: 280px;
+    }
+
+
 }
