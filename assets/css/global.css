@@ -342,7 +342,7 @@ header .navbar a:hover {
     }
     
     .video-container video {
-        width: 350px;
+        width: 300px;
         height: 300px;
     }
 
@@ -398,6 +398,9 @@ header .navbar a:hover {
      font-size: 2rem;
      margin: 20px 0px 120px 52px;
  }
+
+
+
 }
 
 
