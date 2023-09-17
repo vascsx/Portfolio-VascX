@@ -149,7 +149,9 @@ header .navbar a:hover {
     height: 25rem;
     padding-bottom: 20px;
     padding-top: 10px;
-    box-shadow: 0 0 20px rgba(221, 11, 11, 0.5); /* Adiciona um contorno 3D */
+    -webkit-box-shadow: 58px 29px 10px -10px rgb(54, 150, 10);
+    -moz-box-shadow: 58px 29px 10px -10px rgb(54, 150, 10);
+    box-shadow: 58px 29px 10px -10px rgb(54, 150, 10);
     margin-top: 20px; /* Adiciona margem superior para afastar o vídeo de cima */
     margin-bottom: 20px; /* Adiciona margem inferior para afastar o vídeo da seção */
 }
@@ -235,16 +237,15 @@ header .navbar a:hover {
 
 
 
-@media screen and (min-width: 461px) {
+@media screen and (min-width: 450px) {
     
     .habilidades{
         display: grid;
         grid-template-columns: 1fr;
+        padding-left: 60px;
     }
 
-    .video-container {
-        padding-left: 75px;
-    }
+   
     
     .links-project button {
         margin-left: 40px;
@@ -335,14 +336,21 @@ header .navbar a:hover {
     .links-project button {
         margin-left: 20px;
     }
-    .container-text p{
-        padding: 40px 0px 0px 50px;
-    }
 
     .video-container video{
         width: 450px;
         height: 280px;
     }
+
+    .habilidades {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+  
 
 
 }
@@ -399,4 +407,3 @@ header .navbar a:hover {
 
 
 
- 

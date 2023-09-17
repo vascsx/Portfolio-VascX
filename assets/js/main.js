@@ -40,3 +40,37 @@ image3Link.addEventListener('click', () => {
 image4Link.addEventListener('click', () => {
     changeVideoAndText(3);
 });
+
+
+
+
+
+
+const textElement = document.getElementById("typed-text");
+const textToType = "FULL STACK DEVELOPER";
+
+function typeText() {
+    let index = 0;
+    const typingSpeed = 120; // Velocidade de digitação em milissegundos
+
+    function typeCharacter() {
+        textElement.textContent += textToType[index];
+        index++;
+
+        if (index < textToType.length) {
+            setTimeout(typeCharacter, typingSpeed);
+        }
+    }
+
+    typeCharacter();
+}
+
+// Iniciar a digitação quando a página é carregada
+window.addEventListener("load", typeText);
+
+
+
+
+
+
+
