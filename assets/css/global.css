@@ -232,11 +232,6 @@ header .navbar a:hover {
 
 @media screen and (min-width: 450px) {
     
-
-    body {
-        max-width: 100vh;
-    }
-    
     .habilidades{
         display: grid;
         grid-template-columns: 1fr;
@@ -253,11 +248,6 @@ header .navbar a:hover {
 
 @media screen and (min-width: 360px) {
     
-
-    body {
-        max-width: 100vh;
-    }
-
     .habilidades{
         display: grid;
         grid-template-columns: 1fr;
@@ -267,7 +257,6 @@ header .navbar a:hover {
         padding-left: 45px;
     }
 
-    
 
     .links-project button {
         margin-left: 20px;
@@ -281,9 +270,6 @@ header .navbar a:hover {
     }
 }
     @media screen and (min-width: 907px) {
-        body {
-            max-width: 100vh;
-        }   
 
        .habilidades{
         display: grid;
@@ -335,9 +321,6 @@ header .navbar a:hover {
 
  @media screen and (min-width: 600px) {
     
-    body {
-        max-width: 100vh;
-    }
     .habilidades{
         display: grid;
         grid-template-columns: 1fr;
@@ -367,9 +350,7 @@ header .navbar a:hover {
 }
 
 @media screen and (min-width: 1338px) {
-    body {
-        max-width: 100vh;
-    }
+    
 
     .habilidades{
      display: grid;
@@ -418,6 +399,5 @@ header .navbar a:hover {
      margin: 20px 0px 120px 52px;
  }
 }
-
 
 
