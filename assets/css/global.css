@@ -248,6 +248,11 @@ header .navbar a:hover {
 
 @media screen and (min-width: 360px) {
     
+
+    body {
+        max-width: auto;
+    }
+    
     .habilidades{
         display: grid;
         grid-template-columns: 1fr;
@@ -321,6 +326,9 @@ header .navbar a:hover {
 
  @media screen and (min-width: 600px) {
     
+    body {
+        max-width: auto;
+    }
     .habilidades{
         display: grid;
         grid-template-columns: 1fr;
