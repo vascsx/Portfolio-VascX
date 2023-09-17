@@ -74,6 +74,9 @@ header .navbar a:hover {
 .text-container {
     padding: 280px 0px 10px 90px;
 }
+ #typed-text{
+    color: rgb(93, 243, 24);
+}
 
 
 
@@ -264,11 +267,17 @@ header .navbar a:hover {
         padding-left: 45px;
     }
 
+    
+
     .links-project button {
         margin-left: 20px;
     }
     .container-text p{
         padding: 40px 0px 0px 50px;
+    }
+
+    .sobre-container p{
+        font-size: 0.625rem;
     }
 }
     @media screen and (min-width: 907px) {
@@ -324,7 +333,7 @@ header .navbar a:hover {
 
  @media screen and (min-width: 600px) {
     
-    .habilidades{
+    /* .habilidades{
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -349,8 +358,36 @@ header .navbar a:hover {
         justify-content: center;
     }
 
+    .sobre-container p{
+        font-size: 0.692rem;
+        padding-right: 15px;
+        padding-bottom: 50px;
+    } */
 
-  
+    .habilidades{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .video-container {
+        padding-left: 45px;
+    }
+
+    .links-project button {
+        margin-left: 45px;
+    }
+    .container-text p{
+        padding: 40px 0px 0px 90px;
+    }
+
+    .sobre-container p{
+        font-size: 0.725rem;
+    }
+    
+    .video-container video {
+        width: 350px;
+        height: 300px;
+    }
 
 
 }
