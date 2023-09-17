@@ -31,7 +31,7 @@ header .navbar a {
 }
 
 header .navbar a:hover {
-    color: #ac0017;
+    color: #0eac00;
 }
 
 
@@ -113,17 +113,7 @@ header .navbar a:hover {
 }
 
 
-
-
-
-
-
-
-
-/* estilizando portfolio */
-
-
-
+/* section habilidades estilizando portfolio */
 
 
 .habilidades {
@@ -238,7 +228,7 @@ header .navbar a:hover {
 
 
 
-
+/* responsivo */
 
 @media screen and (min-width: 450px) {
     
@@ -329,41 +319,8 @@ header .navbar a:hover {
     }
  }
 
-
-
  @media screen and (min-width: 600px) {
     
-    /* .habilidades{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .video-container {
-        padding-left: 45px;
-    }
-
-    .links-project button {
-        margin-left: 20px;
-    }
-
-    .video-container video{
-        width: 450px;
-        height: 280px;
-    }
-
-    .habilidades {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .sobre-container p{
-        font-size: 0.692rem;
-        padding-right: 15px;
-        padding-bottom: 50px;
-    } */
-
     .habilidades{
         display: grid;
         grid-template-columns: 1fr;
@@ -391,7 +348,6 @@ header .navbar a:hover {
 
 
 }
-
 
 @media screen and (min-width: 1338px) {
     .habilidades{
