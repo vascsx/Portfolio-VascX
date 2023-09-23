@@ -5,11 +5,11 @@ const image2Link = document.getElementById('image2Link');
 const image3Link = document.getElementById('image3Link');
 const image4Link = document.getElementById('image4Link');
 
-const videos = ['./video/CALCULADORA-VASC.mkv', './video/video-embreve.mp4', './video/video-embreve.mp4', './video/video-embreve.mp4'];
+const videos = ['./video/CALCULADORA-VASC.mkv', './video/form-contact.mp4', './video/pokeApi.mp4', './video/video-embreve.mp4'];
 const texts = [
     "Calculadora\n",
     "Formulario de Contato\n",
-    "Playstation Store\n",
+    "Pokédex ApiFetch\n",
     "Spotify\n"
 ];
 
@@ -51,7 +51,7 @@ const textToType = "FULL STACK DEVELOPER";
 
 function typeText() {
     let index = 0;
-    const typingSpeed = 120; // Velocidade de digitação em milissegundos
+    const typingSpeed = 120;
 
     function typeCharacter() {
         textElement.textContent += textToType[index];
@@ -65,7 +65,6 @@ function typeText() {
     typeCharacter();
 }
 
-// Iniciar a digitação quando a página é carregada
 window.addEventListener("load", typeText);
 
 

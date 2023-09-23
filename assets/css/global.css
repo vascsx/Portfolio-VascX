@@ -145,18 +145,18 @@ header .navbar a:hover {
     -webkit-box-shadow: 58px 29px 10px -10px rgb(54, 150, 10);
     -moz-box-shadow: 58px 29px 10px -10px rgb(54, 150, 10);
     box-shadow: 58px 29px 10px -10px rgb(54, 150, 10);
-    margin-top: 20px; /* Adiciona margem superior para afastar o vídeo de cima */
-    margin-bottom: 20px; /* Adiciona margem inferior para afastar o vídeo da seção */
+    margin-top: 20px; 
+    margin-bottom: 20px; 
 }
 
 .container-text {
-    margin-right: 0px; /* Adicione margem à direita para afastar os botões um pouco para a direita */
+    margin-right: 0px; 
 }
 
 .container-text button {
     border: 2px solid #dd0d0d;
     padding: 0;
-    margin: 0 8px; /* Adicione margem para criar espaço entre os botões */
+    margin: 0 8px; 
     width: 50px;
     display: inline-block;
     text-align: center;
@@ -211,7 +211,7 @@ header .navbar a:hover {
     width: 70px;
     height: 38px;
     border-radius: 7px;
-    margin-left: 12px; /* Reduza o valor para mover os botões para a esquerda */
+    margin-left: 12px; 
     gap: 0px;
 }
 
@@ -338,7 +338,7 @@ header .navbar a:hover {
     }
 
     .sobre-container p{
-        font-size: 0.725rem;
+        font-size: 0.835rem;
     }
     
     .video-container video {
@@ -348,6 +348,18 @@ header .navbar a:hover {
 
 
 }
+
+
+
+
+@media screen and (min-width: 1000px) {
+    
+    .sobre-container p{
+        font-size: 1.255rem;                        /* ajustar depois */
+    }
+
+}
+
 
 @media screen and (min-width: 1338px) {
     
