@@ -377,9 +377,15 @@ header .navbar a:hover {
             padding: 50px 0px 10px 0px;
         }
     
+        .video-container {
+            padding-right: 100px;
+        }
+
+
         .video-container video{
             width: 36.25rem;
-            height: 15.5rem;
+            height: 22.5rem;
+            padding-right: 30px;
         }
         header .navbar a {
             font-size: 1.2rem;
@@ -432,7 +438,7 @@ header .navbar a:hover {
  
      .video-container video{
         width: 36.25rem;
-        height: 28.5rem;
+        height: 32.5rem;
      }
      header .navbar a {
          font-size: 1.2rem;
